@@ -1,0 +1,48 @@
+html {
+    background-image: url(../images/gompa_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.profile_box {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 470px;
+    width: 350px;
+    padding: 40px;
+    font-family: 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+#profile-pic {
+    border-radius: 50%;
+}
+
+.profile_box h1 {
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-size: 33px;
+}
+
+.profile_box h5 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+#description {
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.social-icons {
+    font-size: 30px;
+}
+
+.social-icons a {
+    color: white;
+}
