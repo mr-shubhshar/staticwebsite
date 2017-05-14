@@ -46,3 +46,7 @@ html {
 .social-icons a {
     color: white;
 }
+
+#particlesid {
+    background: cornflowerblue;
+}
