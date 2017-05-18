@@ -12,11 +12,10 @@ body {
 }
 
 .profile_box {
-    background-color: rgba(0, 0, 0, 0.2);
     height: 470px;
     width: 500px;
     z-index: 1;
-    padding: 40px;
+    padding: 80px;
     font-family: 'Helvetica Neue', sans-serif;
     text-align: center;
     color: white;

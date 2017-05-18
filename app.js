@@ -31,7 +31,7 @@ particlesJS("particles", {
         "modes": {
             "repulse": {
                 "distance": 70,
-                "duration": 2
+                "duration": 0.2
             }
         }
     },
