@@ -1,21 +1,15 @@
-html {
-    background-image: url(../images/gompa_image.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
 
 .profile_box {
     background-color: rgba(0, 0, 0, 0.2);
     height: 470px;
     width: 350px;
+    z-index: 1;
     padding: 40px;
     font-family: 'Helvetica Neue', sans-serif;
     text-align: center;
     color: white;
     margin: 0 auto;
-    margin-top: 80px;
+
 }
 
 #profile-pic {
@@ -45,4 +39,13 @@ html {
 
 .social-icons a {
     color: white;
+}
+
+#particles {
+    background: black;
+    z-index: -20;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
