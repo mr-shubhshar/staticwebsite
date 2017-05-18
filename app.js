@@ -1,7 +1,7 @@
 particlesJS("particles", {
     "particles": {
         "number": {
-            "value": 100,
+            "value": 50,
             "density": {
                 "enable": true,
                 "value_area": 500
@@ -18,21 +18,20 @@ particlesJS("particles", {
         "detect_on": "windows",
         "events": {
             "resize": true,
-            "onhover": {
+            /*"onhover": {
                 "enable": true,
                 "mode": "repulse"
-            },
+            },*/
             "onclick": {
                 "enable": true,
                 "mode": "push"
-
             }
         },
         "modes": {
-            "repulse": {
-                "distance": 70,
+            /*"repulse": {
+                "distance": 1,
                 "duration": 0.2
-            }
+            }*/
         }
     },
     "retina_detect": true

@@ -30,11 +30,11 @@ body {
 .profile_box h1 {
     font-weight: 100;
     letter-spacing: 5px;
-    font-size: 33px;
+    font-size: 40px;
 }
 
-.profile_box h5 {
-    font-size: 20px;
+.profile_box h2 {
+    font-size: 30px;
     letter-spacing: 1px;
     font-weight: 100;
 }
@@ -45,7 +45,7 @@ body {
 }
 
 .social-icons {
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .social-icons a {
