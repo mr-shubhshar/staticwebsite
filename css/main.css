@@ -1,8 +1,20 @@
+body {
+    margin: 0px;
+}
+
+#particles {
+    background: black;
+    z-index: -20;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
 
 .profile_box {
     background-color: rgba(0, 0, 0, 0.2);
     height: 470px;
-    width: 350px;
+    width: 500px;
     z-index: 1;
     padding: 40px;
     font-family: 'Helvetica Neue', sans-serif;
@@ -39,13 +51,4 @@
 
 .social-icons a {
     color: white;
-}
-
-#particles {
-    background: black;
-    z-index: -20;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
 }
